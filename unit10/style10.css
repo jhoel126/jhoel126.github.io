@@ -1,0 +1,46 @@
+.main {
+  border: 2px solid black;
+  font-size: 1.05em;
+  margin: auto;
+  width: 60%;
+}
+
+td {
+  width: 15vw
+}
+
+.link {
+  width: 30vw
+}
+
+tr {
+  height: 40px;
+}
+
+td.main {
+  width: 25%;
+  height: 50px;
+}
+
+table, tr, th, td {
+  border: 2px solid black;
+  margin: auto;
+}
+
+th, td {
+  font-size: 1.03em;
+}
+
+img {
+  width: 15vw;
+  height: 100px;
+}
+
+h3 {
+  text-align: center;
+}
+
+#finpro {
+  width: 45vw;
+  height: auto;
+}
