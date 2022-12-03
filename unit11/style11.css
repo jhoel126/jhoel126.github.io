@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+table, tr, th, td {
+  border: 1px solid black;
+  margin: auto;
+  text-align: center;
+}
+
+th {
+  border: 2px solid;
+  height: 25px;
+}
+
+table {
+  border: 0px solid;
+  width: 60vw;
+}
+
+td {
+  height: 22px;
+}
+
+fieldset {
+  width: 200px
+}
+
