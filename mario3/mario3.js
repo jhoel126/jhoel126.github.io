@@ -1,27 +1,19 @@
 // TODO #2
 // Take in user input for the height
-let userHeight = parseInt(prompt("Please enter the height of the pyramid."))
-printPyramid(userHeight);
+//let userHeight = parseInt(prompt("Please enter the height of the pyramid."))
+//printPyramid(userHeight);
+const element = document.getElementById("activator");
+element.addEventListener("click", determineHeightAndThenDrawPyramid);
 
+function determineHeightAndThenDrawPyramid() {
+  document.getElementById("pyramid").innerHTML = "";
+  height = parseInt(document.getElementById("height").value);
+  printPyramid(height);
+}
 
-/*
- * printPyramid
- *
- * Prints to the console a pyramid of '#' characters of the specified height
- * For example, if height is 5, the console will look like this:
- *          ##
- *         ###
- *        ####
- *       #####
- *      ######
- */
 function printPyramid(height) {
-    console.log("Uh oh... the pyramid is under construction.");
-    console.log("Check back soon, our developers are hard at work as we speak!");
-
-    // TODO #1
-    // print that pyramid!
-    let n = height;
+  
+  let n = height;
     
     for (let i = 1; i <= n; i++) {
       // printing spaces
